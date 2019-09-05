@@ -1,0 +1,12 @@
+/* this defines the helper grid */
+.gridlines {
+  /* change these as you need */
+  --grid-size:10px;
+  --grid-color:pink;
+}
+
+/* anything else you want to do 👇🏻 */
+
+h1 {
+  color:blue;
+}
