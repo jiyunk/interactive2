@@ -1,5 +1,5 @@
 body {
-  background:#eee;
+  background:#eeefc5;
   margin:0;
   padding:0;
   height:100vh;
@@ -8,13 +8,13 @@ body {
   justify-items: center;
 }
 .folio {
-  height:600px;
+  height:900px;
   width:839px;
   margin:100px auto;
   overflow:hidden;
 }
 .page {
-  height:600px;
+  height:900px;
   width:420px;
   background:white;
   border:1px solid #ccc;
