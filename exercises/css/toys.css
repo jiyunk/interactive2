@@ -1,0 +1,28 @@
+
+
+body {
+	background:black;
+	text-align: center;
+	color: white;
+	font-family: t26-carbon, monospace;
+	padding: 20px;
+	font-size: 30px;
+};
+
+h1{
+
+	text-transform: uppercase;
+
+}
+
+.search{
+	border-style: solid;
+	border-color: gray;
+	padding: 10px;
+
+};
+
+.dialogue: hover{
+	color: white;
+};
+

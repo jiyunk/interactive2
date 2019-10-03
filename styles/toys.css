@@ -1,0 +1,428 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	background:#d0d3ea;
+	text-align: center;
+	color: white;
+	font-family: anonymous-pro, monospace;
+	font-size: 30px;
+	position: relative;
+
+	
+}
+
+h1{
+	padding-left:50px;
+	text-align: left;
+	margin-bottom:130px;
+	word-spacing:-30px;
+}
+
+.none{
+
+}
+
+.intro {
+	padding-left: 200px;
+	position: relative;
+	background-image: url('../images/Asset 14.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left:600px;
+	width:200px;
+	height:500px;
+	z-index: -1;
+}
+
+#imageSwap1 {
+	width:100px;
+	height:180px;
+	background-image: url('../images/Asset 19.png');
+	background-size: 100%;
+	margin-left:600px;
+	margin-top:-620px;
+	position:relative;
+	background-repeat: no-repeat;
+}
+#imageSwap1:hover {
+	background-image: url('../images/Asset 12.png');	
+	cursor: pointer;
+	background-repeat: no-repeat;
+
+}
+
+#imageSwap2 {
+	width:120px;
+	height:200px;
+	background-image: url('../images/Asset 16.png');
+	background-size: 100%;
+	margin-left: 850px;
+	margin-top:65px;
+	background-repeat: no-repeat;
+	
+}
+#imageSwap2:hover {
+	background-image: url('../images/Asset 23.png');	
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+#imageSwap3 {
+	width:200px;
+	height:300px;
+	background-image: url('../images/Asset 20.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left:450px;
+
+
+}
+#imageSwap3:hover {
+	background-image: url('../images/Asset 21.png');	
+	cursor: pointer;
+	background-repeat: no-repeat;
+
+}
+
+#imageSwap4 {
+	width:200px;
+	height:300px;
+	background-image: url('../images/Asset 18.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top:-310px;
+	margin-left: 200px;
+
+}
+#imageSwap4:hover {
+	background-image: url('../images/Asset 17.png');	
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+
+.padding{
+	padding:100px;
+}
+
+
+.hi {
+	text-align: center;
+}
+
+.typewriter {
+	width:auto;
+	display:inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  animation-iteration-count: 1;
+animation-play-state: paused;
+}
+
+.typewriter.playing {
+	animation-play-state: running;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.dino {
+	background-image: url('../images/Asset 3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	display:block;
+	background-size: 100%;
+	width:100px;
+	height:250px;
+	margin-left:650px;
+	margin-top:-50px;
+}
+
+.arrow {
+	background-image:url('../images/Asset 48.png');
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100%;
+	width:50px;
+	height:60px;
+	margin-left:870px;
+	margin-top:-130px;
+	animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+}
+
+
+
+.one {
+	background-image:url('../images/Asset 28.png');
+	background-repeat: no-repeat;
+	position:relative;
+	width:200px;
+	height:200px;
+	margin-left:100px;
+	margin-top:150px;
+	display: block;
+}
+.two {
+	background-image:url('../images/Asset 29.png');
+	background-repeat: no-repeat;
+	position:relative;
+	width:250px;
+	height:200px;
+	margin-top:-150px;
+	margin-left:350px;
+	display: block;
+}
+.three {
+	background-image:url('../images/Asset 30.png');
+	background-repeat: no-repeat;
+	position:relative;
+	width:300px;
+	height:300px;
+	margin-top:-300px;
+	margin-left:670px;
+	display: block;
+}
+.four {
+	background-image:url('../images/Asset 31.png');
+	background-repeat: no-repeat;
+	position:relative;
+	width:300px;
+	height:200px;
+	margin-top:-240px;
+	margin-left:1050px;
+	display: block;
+}
+
+
+
+.house{
+	background-image:url('../images/Asset 37.png');
+	background-repeat: no-repeat;
+	background-size:70%;
+	position:relative;
+	width:250px;
+	height:250px;
+	margin-top:200px;
+	margin-left:130px;
+	display: block;
+	
+}
+.school{
+	background-image:url('../images/Asset 38.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:400px;
+	height:400px;
+	margin-top:-280px;
+	margin-left:470px;
+	display: block;
+	
+}
+.city{
+	background-image:url('../images/Asset 39.png');
+	background-repeat: no-repeat;
+	background-size:100%;
+	position:relative;
+	width:400px;
+	height:300px;
+	margin-top:-420px;
+	margin-left:950px;
+	display: block;
+}
+
+.sun {
+	background-image:url('../images/Asset 40.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:200px;
+	height:200px;
+	margin-left:400px;
+	margin-top:150px;
+	display: block;
+}
+.moon {
+	background-image:url('../images/Asset 41.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:200px;
+	height:200px;
+	margin-top:-190px;
+	margin-left:800px;
+	display: block;
+}
+
+
+
+.father {
+	background-image:url('../images/Asset 49.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:100px;
+	height:250px;
+	margin-left:490px;
+	display: block;
+	margin-top:-300px;
+}
+.mother {
+	background-image:url('../images/Asset 44.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:120px;
+	height:300px;
+	margin-top:-60px;
+	margin-left:150px;
+	display: block;
+}
+.wtoys {
+	background-image:url('../images/Asset 5.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:300px;
+	height:300px;
+	margin-top:-180px;
+	margin-left:750px;
+	display: block;
+}
+
+.alone{
+	background-image:url('../images/Asset 50.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:100px;
+	height:120px;
+	display: block;
+	margin-top:-280px;
+	margin-left:1150px;
+}
+ 
+.explanation {
+	margin-top:50px;
+	word-spacing:200px;
+
+}
+.explanation02 {
+	
+	word-spacing:350px;
+
+}
+
+.night{
+	background-color:black;
+}
+
+
+.heart {
+	background-image:url('../images/Asset 46.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:120px;
+	height:200px;
+	display:block;
+	margin-left:450px;
+}
+.broken {
+	background-image:url('../images/Asset 45.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position:relative;
+	width:150px;
+	height:300px;
+	display:block;
+	margin-left:800px;
+	margin-top:-180px;
+}
+
+
+
+.toys {
+	background-image:url('../images/toys.gif');
+	background-repeat:no-repeat;
+	position:relative;
+	margin-left:300px;
+	margin-top:100px;
+	width:700px;
+	height:700px;
+	display:block;
+}
+
+
+.final{
+	
+	text-align:center;
+}
+
+.arrow01 {
+	background-image:url('../images/Asset 48.png');
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100%;
+	width:50px;
+	height:60px;
+	transform:rotate(-90deg);
+	margin-left:660px;
+	margin-top:200px;
+	display:block;
+}
+.arrow02 {
+	background-image:url('../images/Asset 48.png');
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100%;
+	width:50px;
+	height:60px;
+	transform:rotate(-90deg);
+	margin-left:1200px;
+	margin-top:-50px;
+	display:block;
+}
+
+
