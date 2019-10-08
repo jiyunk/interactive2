@@ -19,7 +19,7 @@ h1{
 	padding-left:50px;
 	text-align: left;
 	margin-bottom:130px;
-	
+
 }
 
 .none{
@@ -53,6 +53,8 @@ h1{
 	cursor: pointer;
 	background-repeat: no-repeat;
 
+
+
 }
 
 #imageSwap2 {
@@ -77,14 +79,15 @@ h1{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin-left:450px;
-
+	position:relative;
+	z-index: 200;
 
 }
 #imageSwap3:hover {
 	background-image: url('../images/Asset 21.png');	
 	cursor: pointer;
 	background-repeat: no-repeat;
-
+	
 }
 
 #imageSwap4 {
@@ -93,6 +96,7 @@ h1{
 	background-image: url('../images/Asset 18.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
+
 	margin-top:-310px;
 	margin-left: 200px;
 
@@ -101,6 +105,7 @@ h1{
 	background-image: url('../images/Asset 17.png');	
 	cursor: pointer;
 	background-repeat: no-repeat;
+
 }
 
 .padding{
@@ -214,12 +219,12 @@ animation-play-state: paused;
 	display: block;
 }
 .three {
-	background-image:url('../images/Asset 30.png');
+	background-image:url('../images/Asset 51.png');
 	background-repeat: no-repeat;
 	position:relative;
 	width:300px;
 	height:300px;
-	margin-top:-300px;
+	margin-top:-310px;
 	margin-left:670px;
 	display: block;
 }
@@ -229,7 +234,7 @@ animation-play-state: paused;
 	position:relative;
 	width:300px;
 	height:200px;
-	margin-top:-240px;
+	margin-top:-220px;
 	margin-left:1050px;
 	display: block;
 }
@@ -424,5 +429,6 @@ animation-play-state: paused;
 	margin-top:-50px;
 	display:block;
 }
+
 
 
