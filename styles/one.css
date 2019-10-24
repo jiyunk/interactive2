@@ -1,0 +1,9 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.cart{
+	background-image:url("image/Asset 3.png");
+	background-repeat: no-repeat;
+	position:relative;
+}
