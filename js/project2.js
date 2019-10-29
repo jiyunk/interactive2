@@ -27,7 +27,7 @@ helium.addEventListener('mousedown',function(){
 
 function inflate(){
 	inflateSize += 0.1
-	if(inflateSize > 30){
+	if(inflateSize > 10){
 		newBalloon.classList.add('boom')
 		clearTimeout(inflateTimer)
 	} else {
