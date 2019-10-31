@@ -1,0 +1,142 @@
+body {
+	background: black;	
+	color: white;
+	font-family: monaco;
+
+	display: grid;
+	align-items: center;
+  
+
+  grid-template-columns: 1fr 1fr;
+
+  min-height: 100vh;
+  font-size: 70px;
+  grid-gap:20px;
+
+
+}
+
+.korea{
+	background-image:url(../image1/korea04.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position:relative;
+	width:400px;
+	height:600px;
+	display: none;
+}
+
+.sf{
+	background-image:url(../image1/sf07.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	position:relative;
+	width:400px;
+	height:600px;
+	display: none;
+}
+#grad02.phase-2 {
+	background-image: linear-gradient(#d4dfe1, #dce6e5, #d1d3bf, #c8b58d, #627e76);
+}
+.phase-2 .sf {
+	background-image:url(../image1/sf05.jpg);
+}
+
+#grad02.phase-3 {
+	background-image: linear-gradient(#9cc1d7, #d6d4ce, #c9b48e, #2b4036, #2f1518);
+}
+.phase-3 .sf {
+	background-image:url(../image1/sf05.jpg);
+}
+
+#grad02.phase-4 {
+	background-image: linear-gradient(#dce6ef, #f1f4f3, #aca171, #efd5be, #222214);
+}
+.phase-4 .sf {
+	background-image:url(../image1/sf12.jpg);
+}
+#grad02.phase-5 {
+	background-image: linear-gradient(#e4d7d8, #c8bebd, #a66f56, #907768, #828784);
+}
+.phase-5 .sf {
+	background-image:url(../image1/sf08.jpg);
+}
+#grad02.phase-6 {
+	background-image: linear-gradient(#182846, #3f4864, #efddb7, #e6aa75, #cc814b);
+}
+.phase-6 .sf {
+	background-image:url(../image1/sf10.jpg);
+}
+
+#grad.phase-2 {
+	background-image: linear-gradient(#d4dfe1, #dce6e5, #d1d3bf, #c8b58d, #627e76);
+}
+.phase-2 .korea {
+	background-image:url(../image1/korea2.jpg);
+}
+
+#grad.phase-3 {
+	background-image: linear-gradient(#9cc1d7, #d6d4ce, #c9b48e, #2b4036, #2f1518);
+}
+.phase-3 .korea {
+	background-image:url(../image1/korea3.jpg);
+}
+
+#grad.phase-4 {
+	background-image: linear-gradient(#e4d7d8, #c8bebd, #a66f56, #907768, #828784);
+}
+.phase-4 .korea {
+	background-image:url(../image1/korea1.jpg);
+}
+#grad.phase-5 {
+	background-image: linear-gradient(#182846, #3f4864, #efddb7, #e6aa75, #cc814b);
+}
+.phase-5 .korea {
+	background-image:url(../image1/korea02.jpg);
+}
+#grad.phase-6 {
+	background-image: linear-gradient(#0b1719, #5a77ba, #cbcdd3, #2d7299, #2c3435);
+}
+.phase-6 .korea {
+	background-image:url(../image1/korea4.jpg);
+}
+
+.aFiveMinute {
+	background: white;
+
+}
+
+#grad, #grad02 {
+
+}
+
+#grad {
+  background-image: linear-gradient(#425460, #c8959b, #d4c7d6, #e1c0c6, #f79b82);
+  width:400px;
+  height:600px;
+  justify-self: right;
+}
+#grad:active .korea {
+	display: block;
+}
+
+#grad02 {
+  background-image: linear-gradient(#cadfe9, #f8f8f8, #f0d4cb, #3d5c57, #806339);
+  width:400px;
+  height:600px;
+  justify-self: left;
+}
+
+#grad02:active .sf {
+	display: block;
+}
+
+#koreaTime{
+	margin-top:-800px;
+	margin-left:325px;
+}
+
+#time{
+	margin-top:-690px;
+	margin-left:30px;
+}
