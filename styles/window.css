@@ -1,0 +1,28 @@
+
+
+* {
+  box-sizing: border-box;
+  background-color: #ece5d4;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
