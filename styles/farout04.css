@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.walking{
+  background-image:url('../images02/walking.gif');
+  background-repeat: no-repeat;
+  position:relative;
+  width:700px;
+  height:620px;
+  background-size: 100%;
+  z-index:10000000;
+  background-position: center;
+  margin-left:350px;
+  
+
+}
+
+.title{
+  background-image:url('../images02/Asset 4.png');
+  background-repeat: no-repeat;
+  position:relative;
+  width:400px;
+  height:320px;
+  background-size: 100%;
+  z-index:10000000;
+  background-position: center;
+  margin-left:200px;
+  margin-top:-80px;
+
+}
+
+.back{
+  background-image:url('../images02/Asset 14.png');
+  background-repeat: no-repeat;
+  position:relative;
+   width:100px;
+  height:90px;
+  background-size: 100%;
+  z-index:100000000;
+  background-position: center;
+  margin-left:50px;
+  margin-top:-820px;
+
+}
+
+.text{
+  font-family: 'Roboto', sans-serif;
+  font-size:20px;
+  color:white;
+  z-index:30000000000000000000000000000;
+
+}

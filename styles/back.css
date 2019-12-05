@@ -1,0 +1,195 @@
+
+.body{
+  
+  margin:0;
+  
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes backgroundColorCycle{
+    0%   {background: #2c3d36; }
+    25%  {background: #fffef0;}
+    40% {background: #fffef0;}
+    50%  {background: #d4e4d2; }
+    100% {background:#364745;}
+  }
+}
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:200%;
+  height:200%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.one{
+  background-image: url('../images02/Asset 16.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+  width:250px;
+  height:350px;
+  z-index:100000000000;
+  margin-top:370px;
+  margin-left:100px;
+  -webkit-animation: heartbeat 20s ease-in-out infinite both;
+          animation: heartbeat 20s ease-in-out infinite both;
+
+  
+}
+
+
+.two{
+  background-image: url('../images02/Asset 17.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+  width:350px;
+  height:450px;
+  z-index:100000000000;
+  margin-top:-540px;
+  margin-left:300px;
+  -webkit-animation: heartbeat 20s ease-in-out infinite both;
+          animation: heartbeat 20s ease-in-out infinite both;
+          
+}
+
+
+.three{
+  background-image: url('../images02/Asset 18.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+  width:350px;
+  height:450px;
+  z-index:100000000000;
+  margin-top:-240px;
+  margin-left:600px;
+  -webkit-animation: heartbeat 20s ease-in-out infinite both;
+          animation: heartbeat 20s ease-in-out infinite both;
+        
+
+}
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+.ship{
+  background-image: url('../images02/Asset 20.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+  width:550px;
+  height:650px;
+  z-index:100000000000;
+  margin-top:-540px;
+  margin-left:930px;
+}
+
