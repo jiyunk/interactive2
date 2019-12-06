@@ -153,17 +153,32 @@
   margin-top:-830px;
 
 }
-
-  .text{
+.small{
   font-family: 'Roboto', sans-serif;
-  font-size:15px;
+  font-size:10px;
   color:white;
-  margin-top:800px;
+  margin-top:750px;
 margin-left:100px;
       position: absolute;
     left: 600px;
     top: 200px;
     z-index:100000000000;
+    line-height: 1.7;
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+          animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+}
+
+  .text{
+  font-family: 'Roboto', sans-serif;
+  font-size:15px;
+  color:white;
+  margin-top:880px;
+margin-left:100px;
+      position: absolute;
+    left: 600px;
+    top: 200px;
+    z-index:100000000000;
+    line-height: 1.7;
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
 }

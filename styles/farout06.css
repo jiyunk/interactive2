@@ -140,13 +140,15 @@
 
 }
 
-.text{
+
+p{
   font-family: 'Roboto', sans-serif;
   font-size:15px;
   color:white;
-  z-index:1000000000000000000000000000000000000000;
+  z-index:1000000000000000000000000000000000000000000000;
   margin-top:-540px;
   margin-left:800px;
+  line-height:1.7;
 
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
@@ -174,5 +176,6 @@
             filter: blur(0px);
     opacity: 1;
   }
+}
 }
 

@@ -193,3 +193,36 @@ html {
   margin-left:930px;
 }
 
+@media (max-width: 670px) {
+ .one{
+ 
+  width:250px;
+  height:350px;
+ 
+}
+
+.three{
+  width:350px;
+  height:450px;
+  
+}
+
+.ship{
+ 
+  width:550px;
+  height:650px;
+}
+
+  #mobile {
+    display:inline;
+    color:black;
+  }
+  #desktop,
+  #tablet,
+  #print {
+    display:none;
+  }
+  
+}
+
+
