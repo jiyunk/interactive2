@@ -193,6 +193,10 @@ html {
   margin-left:930px;
 }
 
+#mobile {
+display: none;
+}
+
 @media (max-width: 670px) {
  .one{
  
@@ -207,16 +211,19 @@ html {
   
 }
 
-.ship{
- 
-  width:550px;
-  height:650px;
-}
 
   #mobile {
-    display:inline;
+    display:block;
     color:black;
+    position: relative;
+    z-index: 1000;
   }
+  .ship{
+ 
+  width:250px;
+  height:350px;
+}
+
   #desktop,
   #tablet,
   #print {

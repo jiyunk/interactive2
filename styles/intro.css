@@ -75,8 +75,8 @@ header a, a:visited {
   margin-left:550px;
   margin-top:100px;
   z-index:1000000;
- -webkit-animation: fade-out 1s ease-out 10s both;
-          animation: fade-out 1s ease-out 10s both;
+ -webkit-animation: fade-out 1s ease-out 3s both;
+          animation: fade-out 1s ease-out 3s both;
 }@-webkit-keyframes fade-out {
   0% {
     opacity: 1;

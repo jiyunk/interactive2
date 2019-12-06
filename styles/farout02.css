@@ -107,9 +107,7 @@
   
 }
 
-.start .floating {
-  display: none;
-}
+
 .floating{
   background-image:url('../images02/floating.gif');
   background-repeat: no-repeat;
