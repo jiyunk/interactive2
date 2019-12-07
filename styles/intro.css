@@ -234,3 +234,61 @@ float: left;
   top:0;
 }
 
+
+#mobile {
+display: none;
+}
+
+@media (max-width: 670px) {
+.one{
+ 
+  width:160px;
+  height:220px;
+  margin-top: -1170px;
+}
+ .two{
+ 
+  width:250px;
+  height:310px;
+    margin-top: -1060px;
+}
+
+.three{
+  width:290px;
+  height:390px;
+  margin-top: -970px;
+  margin-left:150px;
+  
+}
+
+.ship{
+      width: 200px;
+    height: 260px;
+    margin-top: 250px;
+  margin-left:160px;
+  
+}
+.gif{
+margin-left:0px;
+margin-top:-250px;
+width:500px;
+
+}
+
+   #mobile {
+    display:block;
+    color:black;
+    position: relative;
+    z-index: 1000;
+  }
+
+
+  #desktop,
+  #tablet,
+  #print {
+    display:none;
+  }
+  
+}
+
+
