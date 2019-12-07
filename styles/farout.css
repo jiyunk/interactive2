@@ -189,22 +189,65 @@
   }
 }
 
+.one{
+  background-image: url('../images02/Asset 24.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+     width: 1741px;
+    height: 770px;
+    z-index: 100000000000;
+        margin-top: -530px;
+    margin-left: 270px;
+      float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+          animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+}
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    25% {-webkit-transform:translate(0, 10px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    25% {-moz-transform:translate(0, 10px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+
 #mobile {
 display: none;
 }
 
 @media (max-width: 670px) {
+
+.one{
+    width: 920px;
+    height: 600px;
+    margin-top: -840px;
+    margin-left: -210px;
+
+}
 .space-odyssey{
 width:300px;
 height:300px;
-margin-left: 126px;
+    margin-left: 86px;
 margin-top:60px;
 }
 .back{
   width:80px;
 height:80px;
-margin-top:-340px;
-margin-left:70px;
+    margin-top: -360px;
+    margin-left: 30px;
 }
 
 .arrow{
@@ -217,7 +260,16 @@ margin-top:200px;
     width: 500px;
     height: 500px;
         margin-top: -1054px;
-    margin-left: 140px;
+      margin-left: 100px;
+      z-index: 1000000000000;
+}
+
+.one{
+    width: 1040px;
+    height: 600px;
+    margin-top: -910px;
+    margin-left: -270px;
+    
 }
 .title{
 width:0px;
@@ -229,13 +281,13 @@ height:0px;
 }
 .small{
   font-size:8px;
-  margin-left: -409px;
+ margin-left: -446px;
          margin-top: 340px;
 }
 .text{
 font-size:10px;
-        margin-left: 196px;
-    margin-top: -209px;
+       margin-left: 155px;
+    margin-top: -190px;
 }
    #mobile {
     display:block;

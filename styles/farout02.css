@@ -204,6 +204,43 @@
     opacity: 1;
   }
 }
+.two{
+  background-image: url('../images02/Asset 25.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+  width: 1670px;
+    height: 450px;
+    z-index: 100000000000;
+    margin-top: -320px;
+    margin-left: 420px;
+ float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+          -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+          animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+}
+}
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+
+
 
 #mobile {
 display: none;
@@ -249,9 +286,16 @@ margin-top: 290px;
 }
 .text{
 font-size:10px;
-    margin-left: -431px;
+    margin-left: -434px;
     margin-top: 320px;
 
+}
+.two{
+      width: 1079px;
+    height: 720px;
+    margin-top: -160px;
+    margin-left: -250px;
+    z-index: 1;
 }
    #mobile {
     display:block;
@@ -268,6 +312,4 @@ font-size:10px;
   }
   
 }
-
-
 

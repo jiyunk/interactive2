@@ -192,6 +192,42 @@
     opacity: 1;
   }
 }
+
+
+.three{
+  background-image: url('../images02/Asset 23.png');
+  background-repeat:no-repeat;
+  position: relative;
+  background-size: 100%;
+  width: 1590px;
+    height: 930px;
+    z-index: 100000000000;
+    margin-top: -160px;
+    margin-left: 490px;
+float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+ -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
+          animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}    
 }
 
 
@@ -200,6 +236,15 @@ display: none;
 }
 
 @media (max-width: 670px) {
+
+.three{
+        width: 980px;
+    height: 410px;
+    margin-left: -170px;
+  margin-top: -130px;
+    z-index: 1;
+}
+
 .gattaca{
 width:200px;
 height:200px;
