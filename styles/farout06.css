@@ -139,6 +139,7 @@
   margin-top:-1000px;
 
 }
+
 .small{
   font-family: 'Roboto', sans-serif;
   font-size:10px;
@@ -192,4 +193,72 @@
   }
 }
 }
+
+
+#mobile {
+display: none;
+}
+
+@media (max-width: 670px) {
+.gattaca{
+width:200px;
+height:200px;
+margin-left:150px;
+margin-top:100px;
+}
+.back{
+  width:80px;
+height:80px;
+margin-top:-270px;
+}
+
+.arrow{
+width:0px;
+height:0px;
+margin-left:220px;
+margin-top:200px;
+}
+.gif{
+width:300px;
+height:300px;
+margin-top: -1061px;
+margin-left: 160px;
+}
+.title{
+width:0px;
+height:0px;
+}
+.back02{
+width:0px;
+height:0px;
+}
+.small{
+  font-size:8px;
+  margin-left: -432px;
+  margin-top: 290px;
+}
+.text{
+font-size:10px;
+    margin-left: 135px;
+margin-top: -60px;
+
+}
+   #mobile {
+    display:block;
+    color:black;
+    position: relative;
+    z-index: 1000;
+  }
+
+
+  #desktop,
+  #tablet,
+  #print {
+    display:none;
+  }
+  
+}
+
+
+
 
