@@ -143,25 +143,26 @@
   font-family: 'Roboto', sans-serif;
   font-size:10px;
   color:white;
-  margin-top:700px;
-margin-left:200px;
-      position: absolute;
-    left: 600px;
-    top: 200px;
-    z-index:100000000000;
-    line-height: 1.2;
+  margin-top:1020px;
+  margin-left:-240px;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  z-index:100000000000;
+  line-height: 0.4;
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
 }
 
 .text{
   font-family: 'Roboto', sans-serif;
-  font-size:15px;
+  font-size:13px;
   color:white;
-  z-index:1000000000000000000000000000000000000000000000;
-  margin-top:-320px;
-  margin-left:790px;
-  line-height:1.2;
+  z-index:100000000000000000000000000000000000000000000000000000;
+  margin-top: -295px;
+    margin-left: 713px;
+    line-height: 0.7;
+  position:absolute;
 
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;

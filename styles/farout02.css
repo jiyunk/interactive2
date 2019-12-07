@@ -109,16 +109,16 @@
 
 
 .floating{
-  background-image:url('../images02/floating.gif');
+  background-image:url('../images02/floating copy.gif');
   background-repeat: no-repeat;
   position:relative;
-  width:650px;
-  height:670px;
-  background-size: 100%;
-  z-index:10000000;
-  background-position: center;
-  margin-left:350px;
-  margin-top:-00px;
+  width: 614px;
+    height: 670px;
+    background-size: 100%;
+    z-index: 10000000;
+    background-position: center;
+    margin-left: 346px;
+    margin-top: -90px;
   
 
 }
@@ -148,15 +148,15 @@
   z-index:100000000;
   background-position: center;
   margin-left:50px;
-  margin-top:-830px;
+  margin-top:-739px;
 
 }
 .small{
   font-family: 'Roboto', sans-serif;
   font-size:10px;
   color:white;
-  margin-top:750px;
-margin-left:100px;
+   margin-top: 1090px;
+    margin-left: -221px;
       position: absolute;
     left: 600px;
     top: 200px;
@@ -168,15 +168,15 @@ margin-left:100px;
 
   .text{
   font-family: 'Roboto', sans-serif;
-  font-size:15px;
+  font-size:13px;
   color:white;
-  margin-top:880px;
-margin-left:100px;
+      margin-top: 960px;
+    margin-left: 90px;
       position: absolute;
     left: 600px;
     top: 200px;
     z-index:100000000000;
-    line-height: 1.7;
+    line-height: 1.5;
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
 }

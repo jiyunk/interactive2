@@ -142,24 +142,25 @@
   font-family: 'Roboto', sans-serif;
   font-size:10px;
   color:white;
-  margin-top:700px;
-margin-left:200px;
+      margin-top: 1089px;
+    margin-left: -205px;
       position: absolute;
     left: 600px;
     top: 200px;
     z-index:100000000000;
-    line-height: 1.7;
+    
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
 }
 .text{
   font-family: 'Roboto', sans-serif;
-  font-size:15px;
+  font-size:13px;
   color:white;
-  margin-top:-480px;
-  margin-left:790px;
-  z-index:30000000000000000000000000000;
-
+          margin-top: -429px;
+    margin-left: 734px;
+    position: absolute;
+    z-index: 30000000000000000000000000000;
+    line-height: 0.7;
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
           animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 10s both;
 }
